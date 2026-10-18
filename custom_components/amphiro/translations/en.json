@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Pick your amphiro b1. It only shows up while the water is running.",
+        "data": { "address": "Device" }
+      },
+      "confirm": {
+        "description": "Pairing code for {address}. The default is derived from the MAC address and works for most devices. Keep the water running while you submit, so the code can be checked against the live data.",
+        "data": { "code": "Pairing code" }
+      }
+    },
+    "error": {
+      "invalid_code": "A pairing code looks like ABCD1234, or digits only, e.g. 585.",
+      "wrong_code": "This code doesn't decrypt the shower's data. Keep the water running and try again, or check the code."
+    },
+    "abort": {
+      "already_configured": "This amphiro b1 is already set up.",
+      "no_devices_found": "No amphiro b1 found. Turn on the shower and try again."
+    }
+  }
+}

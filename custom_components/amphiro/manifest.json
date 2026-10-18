@@ -1,0 +1,14 @@
+{
+  "domain": "amphiro",
+  "name": "amphiro b1",
+  "bluetooth": [{ "local_name": "amphiro*", "connectable": false }],
+  "codeowners": ["@LukasSkywalker"],
+  "config_flow": true,
+  "dependencies": ["bluetooth_adapters"],
+  "documentation": "https://github.com/LukasSkywalker/ha-amphiro",
+  "integration_type": "device",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/LukasSkywalker/ha-amphiro/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
